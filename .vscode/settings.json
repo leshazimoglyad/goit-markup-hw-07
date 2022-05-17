@@ -1,4 +1,5 @@
- {“liveSassCompile.settings.formats”: [
+ {
+     “liveSassCompile.settings.formats”: [
     {
       “format”: “expanded”,
       “extensionName”: “.css”,
