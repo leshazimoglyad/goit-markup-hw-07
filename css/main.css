@@ -59,11 +59,9 @@ h6 {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
 .logo--blue {
   color: #2196f3;
 }
-
 .logo--black {
   color: var(--secondary-color);
 }
@@ -603,7 +601,17 @@ h6 {
 }
 
 .footer-input-container {
-  margin-left: auto;
+  margin-left: 93px;
+}
+
+.footer-input-container__text {
+  margin-bottom: 20px;
+  color: var(--background-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-input {
@@ -624,7 +632,7 @@ h6 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input__btn {
+.footer-input-container__btn {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -644,7 +652,7 @@ h6 {
   justify-content: center;
 }
 
-.footer-input__icon-send {
+.footer-input-container__icon-send {
   margin-left: 10px;
   width: 24px;
   height: 24px;
@@ -728,7 +736,7 @@ h6 {
   border-color: #2196f3;
 }
 
-.input-modal__icon {
+.modal-input-wrap__icon {
   position: absolute;
   top: 50%;
   left: 15px;
@@ -739,11 +747,11 @@ h6 {
   background-repeat: no-repeat;
   content: "";
 }
-.input-modal:focus + .input-modal__icon {
+.input-modal:focus + .modal-input-wrap__icon {
   fill: #2196f3;
 }
 
-.modal-input-wrap__lable {
+.modal-input-wrap-lable {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
